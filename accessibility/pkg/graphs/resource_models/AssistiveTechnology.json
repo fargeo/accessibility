@@ -48,6 +48,35 @@
                 {
                     "card_id": "9e022db1-6430-42c7-b550-8116455dc5db",
                     "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "name_richtext",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": ""
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "01a6dc8f-471b-4328-9c36-fbab1c6ed5cc",
+                    "label": {
+                        "en": "name_richtext"
+                    },
+                    "node_id": "62383eda-b7b9-11ed-a0ee-0242ac130006",
+                    "sortorder": 1,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000005"
+                },
+                {
+                    "card_id": "9e022db1-6430-42c7-b550-8116455dc5db",
+                    "config": {
                         "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
@@ -63,7 +92,7 @@
                         "en": "Concept"
                     },
                     "node_id": "5af7c5b0-b6af-11ed-b115-0242ac130006",
-                    "sortorder": 3,
+                    "sortorder": 4,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000002"
                 },
@@ -99,9 +128,144 @@
                         "en": "Number"
                     },
                     "node_id": "5a027eac-b6af-11ed-b115-0242ac130006",
-                    "sortorder": 1,
+                    "sortorder": 2,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000008"
+                },
+                {
+                    "card_id": "9e022db1-6430-42c7-b550-8116455dc5db",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "domain_radio",
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "113f9fb0-b082-4ed6-b7e3-43affcf54208",
+                    "label": {
+                        "en": "domain_radio"
+                    },
+                    "node_id": "ef6a398a-b7a4-11ed-bc10-0242ac130006",
+                    "sortorder": 10,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000017"
+                },
+                {
+                    "card_id": "9e022db1-6430-42c7-b550-8116455dc5db",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "concept_radio",
+                        "options": [
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "5261d95f-c4be-4369-ad58-70a3a8e17e36",
+                                "id": "fc67d206-6611-4476-ae62-c586797a8ec4",
+                                "sortorder": "",
+                                "text": "Agree"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "4eb8f8de-2141-4b02-9f32-da07c77948f4",
+                                "id": "6bc5bc8b-0208-40c8-9bc0-df2824c5bb0e",
+                                "sortorder": "",
+                                "text": "Disagree"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "2e5f676a-c47f-40c8-a956-0087c55acf43",
+                                "id": "5ec06573-ccf1-4c6b-aa4c-ab438919d004",
+                                "sortorder": "",
+                                "text": "Neither Agree or Disagree"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "7a90fb2a-bf28-489e-b5fb-32fecbe80b30",
+                                "id": "7e4b2d91-8519-4524-bff0-fbca575b77c8",
+                                "sortorder": "",
+                                "text": "Strongly Agree"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "4772a0b6-079c-43e7-963c-0209fea403e5",
+                                "id": "93aff92e-ea36-4400-bfa2-bc1d2d1a78fb",
+                                "sortorder": "",
+                                "text": "Strongly Disagree"
+                            }
+                        ],
+                        "placeholder": {
+                            "en": "Select an option"
+                        },
+                        "url": "/concepts/dropdown?conceptid=967d6bf5-1e18-4499-a804-1038d78d6ebe"
+                    },
+                    "id": "1f1cbc64-2a51-4900-bee3-ac86b02683df",
+                    "label": {
+                        "en": "concept_radio"
+                    },
+                    "node_id": "b13311dc-b7a4-11ed-9046-0242ac130006",
+                    "sortorder": 5,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000009"
+                },
+                {
+                    "card_id": "9e022db1-6430-42c7-b550-8116455dc5db",
+                    "config": {
+                        "defaultValue": {
+                            "en": {
+                                "direction": "ltr",
+                                "value": ""
+                            }
+                        },
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "Name",
+                        "maxLength": null,
+                        "placeholder": {
+                            "en": ""
+                        },
+                        "uneditable": false,
+                        "width": "100%"
+                    },
+                    "id": "35ccee86-b653-464b-bbb6-5fc10aba980b",
+                    "label": {
+                        "en": "Name"
+                    },
+                    "node_id": "5b460c06-b7b9-11ed-a0ee-0242ac130006",
+                    "sortorder": 0,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                },
+                {
+                    "card_id": "9e022db1-6430-42c7-b550-8116455dc5db",
+                    "config": {
+                        "defaultValue": "",
+                        "i18n_properties": [
+                            "placeholder"
+                        ],
+                        "label": "domain_checkbox",
+                        "placeholder": {
+                            "en": "Select an option"
+                        }
+                    },
+                    "id": "3aac8834-c9ec-451d-9d48-ab9fa5b35c41",
+                    "label": {
+                        "en": "domain_checkbox"
+                    },
+                    "node_id": "133ce6f0-b7a5-11ed-bc10-0242ac130006",
+                    "sortorder": 12,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000018"
                 },
                 {
                     "card_id": "9e022db1-6430-42c7-b550-8116455dc5db",
@@ -124,7 +288,7 @@
                         "en": "URL"
                     },
                     "node_id": "5f004d8a-b6af-11ed-b115-0242ac130006",
-                    "sortorder": 13,
+                    "sortorder": 19,
                     "visible": true,
                     "widget_id": "ca0c43ff-af73-4349-bafd-53ff9f22eebd"
                 },
@@ -146,7 +310,7 @@
                         "en": "Concept-list"
                     },
                     "node_id": "5b532c66-b6af-11ed-b115-0242ac130006",
-                    "sortorder": 4,
+                    "sortorder": 6,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000012"
                 },
@@ -163,7 +327,7 @@
                         "en": "File-list"
                     },
                     "node_id": "5a8598be-b6af-11ed-b115-0242ac130006",
-                    "sortorder": 2,
+                    "sortorder": 3,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000019"
                 },
@@ -184,7 +348,7 @@
                         "en": "Domain List"
                     },
                     "node_id": "5c74a700-b6af-11ed-b115-0242ac130006",
-                    "sortorder": 7,
+                    "sortorder": 11,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000016"
                 },
@@ -199,7 +363,7 @@
                         "en": "Boolean"
                     },
                     "node_id": "5d92fa24-b6af-11ed-b115-0242ac130006",
-                    "sortorder": 10,
+                    "sortorder": 15,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000006"
                 },
@@ -220,7 +384,7 @@
                         "en": "Domain"
                     },
                     "node_id": "5c124f88-b6af-11ed-b115-0242ac130006",
-                    "sortorder": 6,
+                    "sortorder": 9,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000015"
                 },
@@ -241,7 +405,7 @@
                         "en": "Node-value"
                     },
                     "node_id": "5d3683de-b6af-11ed-b115-0242ac130006",
-                    "sortorder": 9,
+                    "sortorder": 14,
                     "visible": true,
                     "widget_id": "f5d6b190-bbf0-4dc9-b991-1debab8cb4a9"
                 },
@@ -262,7 +426,7 @@
                         "en": "RTL list"
                     },
                     "node_id": "60bc3850-b6af-11ed-b115-0242ac130006",
-                    "sortorder": 15,
+                    "sortorder": 21,
                     "visible": true,
                     "widget_id": "ff3c400a-76ec-11e7-a793-784f435179ea"
                 },
@@ -283,38 +447,73 @@
                         "en": "RTL instance"
                     },
                     "node_id": "60218f58-b6af-11ed-b115-0242ac130006",
-                    "sortorder": 14,
+                    "sortorder": 20,
                     "visible": true,
                     "widget_id": "31f3728c-7613-11e7-a139-784f435179ea"
                 },
                 {
                     "card_id": "9e022db1-6430-42c7-b550-8116455dc5db",
                     "config": {
-                        "defaultValue": {
-                            "en": {
-                                "direction": "ltr",
-                                "value": ""
-                            }
-                        },
+                        "defaultValue": "",
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "Name",
-                        "maxLength": null,
+                        "label": "concept_checkbox",
+                        "options": [
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "5261d95f-c4be-4369-ad58-70a3a8e17e36",
+                                "id": "fc67d206-6611-4476-ae62-c586797a8ec4",
+                                "sortorder": "",
+                                "text": "Agree"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "4eb8f8de-2141-4b02-9f32-da07c77948f4",
+                                "id": "6bc5bc8b-0208-40c8-9bc0-df2824c5bb0e",
+                                "sortorder": "",
+                                "text": "Disagree"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "2e5f676a-c47f-40c8-a956-0087c55acf43",
+                                "id": "5ec06573-ccf1-4c6b-aa4c-ab438919d004",
+                                "sortorder": "",
+                                "text": "Neither Agree or Disagree"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "7a90fb2a-bf28-489e-b5fb-32fecbe80b30",
+                                "id": "7e4b2d91-8519-4524-bff0-fbca575b77c8",
+                                "sortorder": "",
+                                "text": "Strongly Agree"
+                            },
+                            {
+                                "children": [],
+                                "collector": "",
+                                "conceptid": "4772a0b6-079c-43e7-963c-0209fea403e5",
+                                "id": "93aff92e-ea36-4400-bfa2-bc1d2d1a78fb",
+                                "sortorder": "",
+                                "text": "Strongly Disagree"
+                            }
+                        ],
                         "placeholder": {
-                            "en": "Enter text"
+                            "en": "Select an option"
                         },
-                        "uneditable": false,
-                        "width": "100%"
+                        "url": "/concepts/dropdown?conceptid=967d6bf5-1e18-4499-a804-1038d78d6ebe"
                     },
-                    "id": "be11fa10-5a6b-42f6-a3e3-e2a1b62df631",
+                    "id": "ab8ce436-1ba3-4065-8129-82ee8f7b3955",
                     "label": {
-                        "en": "Name"
+                        "en": "concept_checkbox"
                     },
-                    "node_id": "37c2b2c6-b6af-11ed-b115-0242ac130006",
-                    "sortorder": 0,
+                    "node_id": "cf7c9be0-b7a4-11ed-9046-0242ac130006",
+                    "sortorder": 7,
                     "visible": true,
-                    "widget_id": "10000000-0000-0000-0000-000000000001"
+                    "widget_id": "10000000-0000-0000-0000-000000000013"
                 },
                 {
                     "card_id": "9e022db1-6430-42c7-b550-8116455dc5db",
@@ -327,7 +526,7 @@
                         "en": "Annotation"
                     },
                     "node_id": "5e72dfd6-b6af-11ed-b115-0242ac130006",
-                    "sortorder": 12,
+                    "sortorder": 18,
                     "visible": true,
                     "widget_id": "aae743b8-4c48-11ea-988b-2bc775672c81"
                 },
@@ -347,17 +546,35 @@
                         "en": "Date"
                     },
                     "node_id": "5cd1b2f6-b6af-11ed-b115-0242ac130006",
-                    "sortorder": 8,
+                    "sortorder": 13,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000004"
                 },
                 {
                     "card_id": "9e022db1-6430-42c7-b550-8116455dc5db",
                     "config": {
+                        "defaultValue": null,
+                        "label": "boolean_switcher",
+                        "subtitle": {
+                            "en": "Click to switch"
+                        }
+                    },
+                    "id": "e5cc2b2c-5bca-4941-942b-cc041f49c63c",
+                    "label": {
+                        "en": "boolean_switcher"
+                    },
+                    "node_id": "3429766c-b7a5-11ed-99b2-0242ac130006",
+                    "sortorder": 16,
+                    "visible": true,
+                    "widget_id": "10000000-0000-0000-0000-000000000003"
+                },
+                {
+                    "card_id": "9e022db1-6430-42c7-b550-8116455dc5db",
+                    "config": {
                         "basemap": "streets",
                         "bearing": 0,
-                        "centerX": 3,
-                        "centerY": 8.5,
+                        "centerX": 92.38955343084103,
+                        "centerY": 34.89946851974365,
                         "defaultValue": "",
                         "defaultValueType": "",
                         "featureColor": "#FF0000",
@@ -387,14 +604,14 @@
                         "overlayOpacity": 0,
                         "pitch": 0,
                         "rerender": true,
-                        "zoom": 0
+                        "zoom": 0.7037925054142903
                     },
                     "id": "eb9ac3d7-c0a6-4ef3-8a33-69db387d02c3",
                     "label": {
                         "en": "Location"
                     },
                     "node_id": "5bb6715e-b6af-11ed-b115-0242ac130006",
-                    "sortorder": 5,
+                    "sortorder": 8,
                     "visible": true,
                     "widget_id": "10000000-0000-0000-0000-000000000007"
                 },
@@ -415,7 +632,7 @@
                         "en": "EDTF"
                     },
                     "node_id": "5e0340a4-b6af-11ed-b115-0242ac130006",
-                    "sortorder": 11,
+                    "sortorder": 17,
                     "visible": true,
                     "widget_id": "adfd15ce-dbab-11e7-86d1-0fcf08612b27"
                 }
@@ -439,12 +656,30 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "5c124f88-b6af-11ed-b115-0242ac130006",
+                    "edgeid": "0b7aee1d-74e2-4959-8265-900bf641c0d1",
+                    "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "ef6a398a-b7a4-11ed-bc10-0242ac130006"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "edgeid": "1ff16c03-828a-418e-af6a-4689635f51cd",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
                     "ontologyproperty": null,
                     "rangenode_id": "5d92fa24-b6af-11ed-b115-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5b460c06-b7b9-11ed-a0ee-0242ac130006",
+                    "edgeid": "21dc1e63-7fa8-4ed2-81da-41c00fd066d8",
+                    "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "62383eda-b7b9-11ed-a0ee-0242ac130006"
                 },
                 {
                     "description": null,
@@ -457,12 +692,12 @@
                 },
                 {
                     "description": null,
-                    "domainnode_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
-                    "edgeid": "3406f78b-d024-4183-987a-98cc07a3274a",
+                    "domainnode_id": "5c74a700-b6af-11ed-b115-0242ac130006",
+                    "edgeid": "30dac604-540a-49b0-a5fb-58fa86460007",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
                     "ontologyproperty": null,
-                    "rangenode_id": "37c2b2c6-b6af-11ed-b115-0242ac130006"
+                    "rangenode_id": "133ce6f0-b7a5-11ed-bc10-0242ac130006"
                 },
                 {
                     "description": null,
@@ -490,6 +725,24 @@
                     "name": null,
                     "ontologyproperty": null,
                     "rangenode_id": "5d3683de-b6af-11ed-b115-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
+                    "edgeid": "5c52a8fd-7008-49e9-83b5-6512c9d5d0fb",
+                    "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "5b460c06-b7b9-11ed-a0ee-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5af7c5b0-b6af-11ed-b115-0242ac130006",
+                    "edgeid": "78b6ed68-148d-461a-ab4b-e6e3f4d79fb1",
+                    "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "b13311dc-b7a4-11ed-9046-0242ac130006"
                 },
                 {
                     "description": null,
@@ -556,6 +809,15 @@
                 },
                 {
                     "description": null,
+                    "domainnode_id": "5d92fa24-b6af-11ed-b115-0242ac130006",
+                    "edgeid": "bf7b9c02-3a60-45aa-9c9a-20c288d36ff9",
+                    "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "3429766c-b7a5-11ed-99b2-0242ac130006"
+                },
+                {
+                    "description": null,
                     "domainnode_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "edgeid": "c1c266d2-c270-4f0a-91e2-02accc540497",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
@@ -571,6 +833,15 @@
                     "name": null,
                     "ontologyproperty": null,
                     "rangenode_id": "5c124f88-b6af-11ed-b115-0242ac130006"
+                },
+                {
+                    "description": null,
+                    "domainnode_id": "5b532c66-b6af-11ed-b115-0242ac130006",
+                    "edgeid": "d9d678f7-72c1-4091-8274-9890ee44e89b",
+                    "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
+                    "name": null,
+                    "ontologyproperty": null,
+                    "rangenode_id": "cf7c9be0-b7a4-11ed-9046-0242ac130006"
                 },
                 {
                     "description": null,
@@ -624,6 +895,60 @@
             ],
             "nodes": [
                 {
+                    "alias": "domain_checkbox",
+                    "config": {
+                        "i18n_config": {
+                            "fn": "arches.app.datatypes.datatypes.DomainDataType"
+                        },
+                        "options": [
+                            {
+                                "id": "1d2273ea-8a40-4e65-9910-045974bf3428",
+                                "selected": false,
+                                "text": {
+                                    "en": "A"
+                                }
+                            },
+                            {
+                                "id": "ee4b1d34-603f-4fa3-8f65-c48cd59033c8",
+                                "selected": false,
+                                "text": {
+                                    "en": "B"
+                                }
+                            },
+                            {
+                                "id": "e7606e87-fd30-43cf-9fe3-29e91d2cf99b",
+                                "selected": false,
+                                "text": {
+                                    "en": "C"
+                                }
+                            },
+                            {
+                                "id": "b0129b4e-17f4-4b94-865d-c3091192def3",
+                                "selected": false,
+                                "text": {
+                                    "en": "D"
+                                }
+                            }
+                        ]
+                    },
+                    "datatype": "domain-value-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": null,
+                    "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "domain_checkbox",
+                    "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
+                    "nodeid": "133ce6f0-b7a5-11ed-bc10-0242ac130006",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                },
+                {
                     "alias": "assistivetechnology",
                     "config": {
                         "en": ""
@@ -668,23 +993,32 @@
                     "sortorder": 0
                 },
                 {
-                    "alias": "name",
+                    "alias": "boolean_switcher",
                     "config": {
-                        "en": ""
+                        "falseLabel": {
+                            "en": "Off"
+                        },
+                        "i18n_properties": [
+                            "trueLabel",
+                            "falseLabel"
+                        ],
+                        "trueLabel": {
+                            "en": "On"
+                        }
                     },
-                    "datatype": "string",
+                    "datatype": "boolean",
                     "description": null,
                     "exportable": true,
                     "fieldname": null,
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "hascustomalias": false,
                     "is_collector": false,
-                    "isrequired": true,
+                    "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "Name",
+                    "name": "boolean_switcher",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
-                    "nodeid": "37c2b2c6-b6af-11ed-b115-0242ac130006",
+                    "nodeid": "3429766c-b7a5-11ed-99b2-0242ac130006",
                     "ontologyclass": null,
                     "parentproperty": null,
                     "sortorder": 0
@@ -738,7 +1072,7 @@
                 {
                     "alias": "concept",
                     "config": {
-                        "rdmCollection": "00000000-0000-0000-0000-000000000005"
+                        "rdmCollection": "967d6bf5-1e18-4499-a804-1038d78d6ebe"
                     },
                     "datatype": "concept",
                     "description": null,
@@ -758,9 +1092,31 @@
                     "sortorder": 0
                 },
                 {
+                    "alias": "name",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": null,
+                    "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": true,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "Name",
+                    "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
+                    "nodeid": "5b460c06-b7b9-11ed-a0ee-0242ac130006",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                },
+                {
                     "alias": "concept_list",
                     "config": {
-                        "rdmCollection": null
+                        "rdmCollection": "967d6bf5-1e18-4499-a804-1038d78d6ebe"
                     },
                     "datatype": "concept-list",
                     "description": null,
@@ -856,20 +1212,6 @@
                                 "text": {
                                     "en": "4"
                                 }
-                            },
-                            {
-                                "id": "e867d621-37e1-44dc-9b88-5e62aeeada4c",
-                                "selected": false,
-                                "text": {
-                                    "en": "5"
-                                }
-                            },
-                            {
-                                "id": "b19e690e-e686-4554-b947-f7eb15541772",
-                                "selected": false,
-                                "text": {
-                                    "en": "6"
-                                }
                             }
                         ]
                     },
@@ -924,20 +1266,6 @@
                                 "text": {
                                     "en": "D"
                                 }
-                            },
-                            {
-                                "id": "a9198d96-46c7-4fc5-8a43-c7722fe331b5",
-                                "selected": false,
-                                "text": {
-                                    "en": "E"
-                                }
-                            },
-                            {
-                                "id": "20645c87-1fd6-4802-adb7-1e48af11e3c5",
-                                "selected": false,
-                                "text": {
-                                    "en": "F"
-                                }
                             }
                         ]
                     },
@@ -983,7 +1311,7 @@
                 {
                     "alias": "node_value",
                     "config": {
-                        "nodeid": "37c2b2c6-b6af-11ed-b115-0242ac130006",
+                        "nodeid": "5b460c06-b7b9-11ed-a0ee-0242ac130006",
                         "property": null
                     },
                     "datatype": "node-value",
@@ -1163,14 +1491,134 @@
                     "ontologyclass": null,
                     "parentproperty": null,
                     "sortorder": 0
+                },
+                {
+                    "alias": "name_richtext",
+                    "config": {
+                        "en": ""
+                    },
+                    "datatype": "string",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": null,
+                    "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "name_richtext",
+                    "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
+                    "nodeid": "62383eda-b7b9-11ed-a0ee-0242ac130006",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                },
+                {
+                    "alias": "concept_radio",
+                    "config": {
+                        "rdmCollection": "967d6bf5-1e18-4499-a804-1038d78d6ebe"
+                    },
+                    "datatype": "concept",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": null,
+                    "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "concept_radio",
+                    "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
+                    "nodeid": "b13311dc-b7a4-11ed-9046-0242ac130006",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                },
+                {
+                    "alias": "concept_checkbox",
+                    "config": {
+                        "rdmCollection": "967d6bf5-1e18-4499-a804-1038d78d6ebe"
+                    },
+                    "datatype": "concept-list",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": null,
+                    "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "concept_checkbox",
+                    "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
+                    "nodeid": "cf7c9be0-b7a4-11ed-9046-0242ac130006",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
+                },
+                {
+                    "alias": "domain_radio",
+                    "config": {
+                        "i18n_config": {
+                            "fn": "arches.app.datatypes.datatypes.DomainDataType"
+                        },
+                        "options": [
+                            {
+                                "id": "28a6f529-4e09-4ec8-a94e-4a10116b0c06",
+                                "selected": false,
+                                "text": {
+                                    "en": "1"
+                                }
+                            },
+                            {
+                                "id": "af3fb7d9-30b1-4adf-bfe9-4f7a168fb384",
+                                "selected": false,
+                                "text": {
+                                    "en": "2"
+                                }
+                            },
+                            {
+                                "id": "70f1b6eb-4519-4116-984f-8fa158fdcf89",
+                                "selected": false,
+                                "text": {
+                                    "en": "3"
+                                }
+                            },
+                            {
+                                "id": "d90e48c4-75ac-498b-b7a6-349ea1284c61",
+                                "selected": false,
+                                "text": {
+                                    "en": "4"
+                                }
+                            }
+                        ]
+                    },
+                    "datatype": "domain-value",
+                    "description": null,
+                    "exportable": true,
+                    "fieldname": null,
+                    "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
+                    "hascustomalias": false,
+                    "is_collector": false,
+                    "isrequired": false,
+                    "issearchable": true,
+                    "istopnode": false,
+                    "name": "domain_radio",
+                    "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
+                    "nodeid": "ef6a398a-b7a4-11ed-bc10-0242ac130006",
+                    "ontologyclass": null,
+                    "parentproperty": null,
+                    "sortorder": 0
                 }
             ],
             "ontology_id": null,
             "publication": {
                 "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                 "notes": null,
-                "publicationid": "9dd64224-b6b6-11ed-a962-0242ac130006",
-                "published_time": "2023-02-27T09:51:36.672",
+                "publicationid": "15811c04-b7bb-11ed-b737-0242ac130006",
+                "published_time": "2023-02-28T16:56:06.590",
                 "user_id": 1
             },
             "relatable_resource_model_ids": [],
@@ -1206,7 +1654,7 @@
     ],
     "metadata": {
         "db": "PostgreSQL 14.5 (Debian 14.5-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit",
-        "git hash": "6bd9c90001 2023-01-18 16:07:09 -0800",
+        "git hash": "a9cc7a8c7b 2023-02-02 14:27:26 -0800",
         "os": "Linux",
         "os version": "5.10.104-linuxkit"
     }
