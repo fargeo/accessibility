@@ -10,6 +10,8 @@
         "arches-dev-dependencies": "archesproject/arches-dev-dependencies#stable/7.3.0"
     },
     "dependencies": {
-        "arches": "archesproject/arches#stable/7.3.0"
+        "accessible-autocomplete": "^2.0.4",
+        "arches": "archesproject/arches#stable/7.3.0",
+        "select-woo": "^1.0.1"
     }
 }
