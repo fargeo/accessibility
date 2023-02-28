@@ -1,0 +1,15 @@
+*.pyc
+*.log
+accessibility/logs
+accessibility/export_deliverables
+accessibility/cantaloupe/*
+accessibility/staticfiles
+accessibility/media/packages
+accessibility/media/node_modules
+accessibility/media/build/*
+accessibility/uploadedfiles/*
+accessibility/settings_local.py
+accessibility/webpack/webpack-stats.json
+accessibility/webpack/webpack-user-config.js
+.vscode/
+CACHE
