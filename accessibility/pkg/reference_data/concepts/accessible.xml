@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:ConceptScheme rdf:about="http://accessibility7-0:8000/73f9f08e-bf94-4de9-bbee-112650489436">
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://accessibility7-0:8000/5261d95f-c4be-4369-ad58-70a3a8e17e36">
+        <skos:prefLabel xml:lang="en">{"id": "fc67d206-6611-4476-ae62-c586797a8ec4", "value": "Agree"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://accessibility7-0:8000/73f9f08e-bf94-4de9-bbee-112650489436"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:title xml:lang="en">{"id": "98395cf7-102a-4c6d-8d98-dd8f9aa7a9a0", "value": "accessible"}</dcterms:title>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://accessibility7-0:8000/2e5f676a-c47f-40c8-a956-0087c55acf43">
+        <skos:prefLabel xml:lang="en">{"id": "5ec06573-ccf1-4c6b-aa4c-ab438919d004", "value": "Neither Agree or Disagree"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://accessibility7-0:8000/73f9f08e-bf94-4de9-bbee-112650489436"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <dcterms:description xml:lang="en">{"id": "45a904f9-5454-40d7-b87f-07b0ead96f07", "value": "Is something accessible"}</dcterms:description>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://accessibility7-0:8000/4772a0b6-079c-43e7-963c-0209fea403e5">
+        <skos:prefLabel xml:lang="en">{"id": "93aff92e-ea36-4400-bfa2-bc1d2d1a78fb", "value": "Strongly Disagree"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://accessibility7-0:8000/73f9f08e-bf94-4de9-bbee-112650489436"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://accessibility7-0:8000/4eb8f8de-2141-4b02-9f32-da07c77948f4">
+        <skos:prefLabel xml:lang="en">{"id": "6bc5bc8b-0208-40c8-9bc0-df2824c5bb0e", "value": "Disagree"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://accessibility7-0:8000/73f9f08e-bf94-4de9-bbee-112650489436"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+    <skos:hasTopConcept>
+      <skos:Concept rdf:about="http://accessibility7-0:8000/7a90fb2a-bf28-489e-b5fb-32fecbe80b30">
+        <skos:prefLabel xml:lang="en">{"id": "7e4b2d91-8519-4524-bff0-fbca575b77c8", "value": "Strongly Agree"}</skos:prefLabel>
+        <skos:inScheme rdf:resource="http://accessibility7-0:8000/73f9f08e-bf94-4de9-bbee-112650489436"/>
+      </skos:Concept>
+    </skos:hasTopConcept>
+  </skos:ConceptScheme>
+</rdf:RDF>

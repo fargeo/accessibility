@@ -35,7 +35,7 @@
                     "instructions": {
                         "en": ""
                     },
-                    "is_editable": false,
+                    "is_editable": true,
                     "name": {
                         "en": "NodeIDs"
                     },
@@ -416,14 +416,14 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "RTL list",
+                        "label": "Related Resource list",
                         "placeholder": {
                             "en": ""
                         }
                     },
                     "id": "9e8ae0ce-f4f6-478a-a132-70e10b33cca6",
                     "label": {
-                        "en": "RTL list"
+                        "en": "Related Resource list"
                     },
                     "node_id": "60bc3850-b6af-11ed-b115-0242ac130006",
                     "sortorder": 21,
@@ -437,14 +437,14 @@
                         "i18n_properties": [
                             "placeholder"
                         ],
-                        "label": "RTL instance",
+                        "label": "Related Resource instance",
                         "placeholder": {
                             "en": ""
                         }
                     },
                     "id": "a5de2728-eecb-494b-b325-f11935faa552",
                     "label": {
-                        "en": "RTL instance"
+                        "en": "Related Resource instance"
                     },
                     "node_id": "60218f58-b6af-11ed-b115-0242ac130006",
                     "sortorder": 20,
@@ -651,7 +651,7 @@
                     "edgeid": "003ef06d-c7f6-423e-acc0-b7be9bcaa621",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "5a8598be-b6af-11ed-b115-0242ac130006"
                 },
                 {
@@ -660,7 +660,7 @@
                     "edgeid": "0b7aee1d-74e2-4959-8265-900bf641c0d1",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "ef6a398a-b7a4-11ed-bc10-0242ac130006"
                 },
                 {
@@ -669,7 +669,7 @@
                     "edgeid": "1ff16c03-828a-418e-af6a-4689635f51cd",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "5d92fa24-b6af-11ed-b115-0242ac130006"
                 },
                 {
@@ -678,7 +678,7 @@
                     "edgeid": "21dc1e63-7fa8-4ed2-81da-41c00fd066d8",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "62383eda-b7b9-11ed-a0ee-0242ac130006"
                 },
                 {
@@ -687,7 +687,7 @@
                     "edgeid": "30d9cbab-d0a4-4d8d-bd4c-2db779c14dbd",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "5b532c66-b6af-11ed-b115-0242ac130006"
                 },
                 {
@@ -696,7 +696,7 @@
                     "edgeid": "30dac604-540a-49b0-a5fb-58fa86460007",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "133ce6f0-b7a5-11ed-bc10-0242ac130006"
                 },
                 {
@@ -705,7 +705,7 @@
                     "edgeid": "4671f990-9bec-4df7-a882-8b59341cd0df",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "60bc3850-b6af-11ed-b115-0242ac130006"
                 },
                 {
@@ -714,7 +714,7 @@
                     "edgeid": "52dc2b63-df27-4cbe-b847-0caa3f8f3ade",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "5a027eac-b6af-11ed-b115-0242ac130006"
                 },
                 {
@@ -723,7 +723,7 @@
                     "edgeid": "552ec87d-ddfd-4e9e-a089-1470eebc3b14",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "5d3683de-b6af-11ed-b115-0242ac130006"
                 },
                 {
@@ -732,7 +732,7 @@
                     "edgeid": "5c52a8fd-7008-49e9-83b5-6512c9d5d0fb",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "5b460c06-b7b9-11ed-a0ee-0242ac130006"
                 },
                 {
@@ -741,7 +741,7 @@
                     "edgeid": "78b6ed68-148d-461a-ab4b-e6e3f4d79fb1",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "b13311dc-b7a4-11ed-9046-0242ac130006"
                 },
                 {
@@ -750,7 +750,7 @@
                     "edgeid": "7e65fcc1-73e0-46d2-a6dc-3c90fbb686ed",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "5bb6715e-b6af-11ed-b115-0242ac130006"
                 },
                 {
@@ -759,7 +759,7 @@
                     "edgeid": "80cedff2-c361-41a6-ad78-2c0ec12e5146",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "2cf99e40-b6af-11ed-b115-0242ac130006"
                 },
                 {
@@ -768,7 +768,7 @@
                     "edgeid": "856f3157-4a4c-40a2-b694-9d7bb0ce6369",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "5cd1b2f6-b6af-11ed-b115-0242ac130006"
                 },
                 {
@@ -777,7 +777,7 @@
                     "edgeid": "89496d72-f3d7-4f01-b275-45bc7a30e921",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "5e72dfd6-b6af-11ed-b115-0242ac130006"
                 },
                 {
@@ -786,7 +786,7 @@
                     "edgeid": "9e6b2399-5d48-4a76-b1a3-0f30a5ffcf9b",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "5f004d8a-b6af-11ed-b115-0242ac130006"
                 },
                 {
@@ -795,7 +795,7 @@
                     "edgeid": "a2c080e4-cb28-4d51-8beb-bc98db1e4e39",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "5af7c5b0-b6af-11ed-b115-0242ac130006"
                 },
                 {
@@ -804,7 +804,7 @@
                     "edgeid": "af743424-1774-4002-9c88-fdd323616343",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "5e0340a4-b6af-11ed-b115-0242ac130006"
                 },
                 {
@@ -813,7 +813,7 @@
                     "edgeid": "bf7b9c02-3a60-45aa-9c9a-20c288d36ff9",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "3429766c-b7a5-11ed-99b2-0242ac130006"
                 },
                 {
@@ -822,7 +822,7 @@
                     "edgeid": "c1c266d2-c270-4f0a-91e2-02accc540497",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "5c74a700-b6af-11ed-b115-0242ac130006"
                 },
                 {
@@ -831,7 +831,7 @@
                     "edgeid": "d7807131-8008-48e0-ac69-fbc5737bfffa",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "5c124f88-b6af-11ed-b115-0242ac130006"
                 },
                 {
@@ -840,7 +840,7 @@
                     "edgeid": "d9d678f7-72c1-4091-8274-9890ee44e89b",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "cf7c9be0-b7a4-11ed-9046-0242ac130006"
                 },
                 {
@@ -849,7 +849,7 @@
                     "edgeid": "e44f5de3-a819-439e-b847-466a2cdb04d4",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                     "name": null,
-                    "ontologyproperty": null,
+                    "ontologyproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "rangenode_id": "60218f58-b6af-11ed-b115-0242ac130006"
                 }
             ],
@@ -874,12 +874,12 @@
                     },
                     "function_id": "60000000-0000-0000-0000-000000000001",
                     "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
-                    "id": "d9905e3c-320c-4cb2-956b-9043e331e179"
+                    "id": "549cec6e-96d6-4bd2-8f0c-3d4c9e51fdc8"
                 }
             ],
             "graphid": "ed8783c9-6b14-419b-8252-289fa753707b",
             "iconclass": "fa fa-keyboard-o",
-            "is_editable": false,
+            "is_editable": true,
             "isresource": true,
             "jsonldcontext": null,
             "name": {
@@ -944,8 +944,8 @@
                     "name": "domain_checkbox",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "133ce6f0-b7a5-11ed-bc10-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -966,7 +966,7 @@
                     "name": "AssistiveTechnology",
                     "nodegroup_id": null,
                     "nodeid": "1db3e436-b6af-11ed-99bd-0242ac130006",
-                    "ontologyclass": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity",
                     "parentproperty": "",
                     "sortorder": 0
                 },
@@ -988,8 +988,8 @@
                     "name": "NodeIDs",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "2cf99e40-b6af-11ed-b115-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -1019,8 +1019,8 @@
                     "name": "boolean_switcher",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "3429766c-b7a5-11ed-99b2-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -1041,8 +1041,8 @@
                     "name": "Number",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "5a027eac-b6af-11ed-b115-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -1065,8 +1065,8 @@
                     "name": "File-list",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "5a8598be-b6af-11ed-b115-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -1087,8 +1087,8 @@
                     "name": "Concept",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "5af7c5b0-b6af-11ed-b115-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -1109,8 +1109,8 @@
                     "name": "Name",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "5b460c06-b7b9-11ed-a0ee-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -1131,8 +1131,8 @@
                     "name": "Concept-list",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "5b532c66-b6af-11ed-b115-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -1174,8 +1174,8 @@
                     "name": "Location",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "5bb6715e-b6af-11ed-b115-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -1228,8 +1228,8 @@
                     "name": "Domain",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "5c124f88-b6af-11ed-b115-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -1282,8 +1282,8 @@
                     "name": "Domain List",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "5c74a700-b6af-11ed-b115-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -1304,8 +1304,8 @@
                     "name": "Date",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "5cd1b2f6-b6af-11ed-b115-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -1327,8 +1327,8 @@
                     "name": "Node-value",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "5d3683de-b6af-11ed-b115-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -1358,8 +1358,8 @@
                     "name": "Boolean",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "5d92fa24-b6af-11ed-b115-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -1386,8 +1386,8 @@
                     "name": "EDTF",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "5e0340a4-b6af-11ed-b115-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -1408,8 +1408,8 @@
                     "name": "Annotation",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "5e72dfd6-b6af-11ed-b115-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -1430,17 +1430,17 @@
                     "name": "URL",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "5f004d8a-b6af-11ed-b115-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
-                    "alias": "rtl_instance",
+                    "alias": "related_resource_instance",
                     "config": {
                         "graphs": [
                             {
-                                "graphid": "45d5e5a0-6ff6-11ec-a1d5-e927866f6139",
-                                "name": "RTL_Demo"
+                                "graphid": "ed8783c9-6b14-419b-8252-289fa753707b",
+                                "name": "AssistiveTechnology"
                             }
                         ],
                         "searchDsl": "",
@@ -1456,20 +1456,21 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "RTL instance",
+                    "name": "Related Resource instance",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "60218f58-b6af-11ed-b115-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
-                    "alias": "rtl_list",
+                    "alias": "related_resource_list",
                     "config": {
                         "graphs": [
                             {
-                                "graphid": "45d5e5a0-6ff6-11ec-a1d5-e927866f6139",
-                                "name": "RTL_Demo"
+                                "graphid": "ed8783c9-6b14-419b-8252-289fa753707b",
+                                "name": "AssistiveTechnology",
+                                "ontologyProperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as"
                             }
                         ],
                         "searchDsl": "",
@@ -1485,11 +1486,11 @@
                     "isrequired": false,
                     "issearchable": true,
                     "istopnode": false,
-                    "name": "RTL list",
+                    "name": "Related Resource list",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "60bc3850-b6af-11ed-b115-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -1510,8 +1511,8 @@
                     "name": "name_richtext",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "62383eda-b7b9-11ed-a0ee-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -1532,8 +1533,8 @@
                     "name": "concept_radio",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "b13311dc-b7a4-11ed-9046-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -1554,8 +1555,8 @@
                     "name": "concept_checkbox",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "cf7c9be0-b7a4-11ed-9046-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 },
                 {
@@ -1608,17 +1609,17 @@
                     "name": "domain_radio",
                     "nodegroup_id": "2cf99e40-b6af-11ed-b115-0242ac130006",
                     "nodeid": "ef6a398a-b7a4-11ed-bc10-0242ac130006",
-                    "ontologyclass": null,
-                    "parentproperty": null,
+                    "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E77_Persistent_Item",
+                    "parentproperty": "http://www.ics.forth.gr/isl/CRMdig/L54_is_same-as",
                     "sortorder": 0
                 }
             ],
-            "ontology_id": null,
+            "ontology_id": "e6e8db47-2ccf-11e6-927e-b8f6b115d7dd",
             "publication": {
                 "graph_id": "ed8783c9-6b14-419b-8252-289fa753707b",
                 "notes": null,
-                "publicationid": "15811c04-b7bb-11ed-b737-0242ac130006",
-                "published_time": "2023-02-28T16:56:06.590",
+                "publicationid": "443ea80e-c1d4-11ed-a57f-0242ac130006",
+                "published_time": "2023-03-13T14:21:34.053",
                 "user_id": 1
             },
             "relatable_resource_model_ids": [],
@@ -1641,7 +1642,7 @@
                 "name": "AssistiveTechnology",
                 "nodegroup_id": null,
                 "nodeid": "1db3e436-b6af-11ed-99bd-0242ac130006",
-                "ontologyclass": null,
+                "ontologyclass": "http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity",
                 "sortorder": 0
             },
             "slug": null,
@@ -1654,7 +1655,7 @@
     ],
     "metadata": {
         "db": "PostgreSQL 14.5 (Debian 14.5-1.pgdg110+1) on x86_64-pc-linux-gnu, compiled by gcc (Debian 10.2.1-6) 10.2.1 20210110, 64-bit",
-        "git hash": "a9cc7a8c7b 2023-02-02 14:27:26 -0800",
+        "git hash": "3b60d51960 2023-03-13 12:51:28 -0400",
         "os": "Linux",
         "os version": "5.10.104-linuxkit"
     }

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <skos:Collection rdf:about="http://accessibility7-0:8000/967d6bf5-1e18-4499-a804-1038d78d6ebe">
+    <skos:member>
+      <skos:Concept rdf:about="http://accessibility7-0:8000/4772a0b6-079c-43e7-963c-0209fea403e5"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://accessibility7-0:8000/2e5f676a-c47f-40c8-a956-0087c55acf43"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://accessibility7-0:8000/4eb8f8de-2141-4b02-9f32-da07c77948f4"/>
+    </skos:member>
+    <skos:prefLabel xml:lang="en">{"id": "66c555fe-3242-4e73-8fef-44d5258e76f7", "value": "accessible"}</skos:prefLabel>
+    <skos:member>
+      <skos:Concept rdf:about="http://accessibility7-0:8000/7a90fb2a-bf28-489e-b5fb-32fecbe80b30"/>
+    </skos:member>
+    <skos:member>
+      <skos:Concept rdf:about="http://accessibility7-0:8000/5261d95f-c4be-4369-ad58-70a3a8e17e36"/>
+    </skos:member>
+    <skos:scopeNote xml:lang="en">{"id": "b608c2f7-18b3-4a38-9940-dd5753cc5cd3", "value": "Is something accessible"}</skos:scopeNote>
+  </skos:Collection>
+  <skos:Collection rdf:about="http://accessibility7-0:8000/00000000-0000-0000-0000-000000000005">
+    <skos:prefLabel xml:lang="en-us">{"id": "d8c622f6-e786-11e6-905a-475a5eee86f5", "value": "Resource To Resource Relationship Types"}</skos:prefLabel>
+    <skos:member>
+      <skos:Concept rdf:about="http://accessibility7-0:8000/00000000-0000-0000-0000-000000000007"/>
+    </skos:member>
+  </skos:Collection>
+</rdf:RDF>
