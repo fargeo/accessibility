@@ -11,7 +11,6 @@
     },
     "dependencies": {
         "accessible-autocomplete": "^2.0.4",
-        "arches": "archesproject/arches#stable/7.3.0",
-        "select-woo": "^1.0.1"
+        "arches": "archesproject/arches#selectwoo_integration"
     }
 }
