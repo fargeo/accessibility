@@ -7,6 +7,7 @@ import os
 import sys
 import arches
 import inspect
+import semantic_version
 from django.utils.translation import gettext_lazy as _
 
 try:
@@ -47,6 +48,11 @@ SECRET_KEY = 'lkw#a%s3d)hjrsypj%c=za%$2@z6=^(4hwzyrx115g(bvf50!r'
 DEBUG = True
 
 ROOT_URLCONF = 'accessibility.urls'
+
+# Core Arches Version
+APP_VERSION = semantic_version.Version(major=1, minor=0, patch=0, prerelease=('a', '0'))
+MIN_ARCHES_VERSION = "7.3.0-b0"
+MAX_ARCHES_VERSION = "7.5.0"
 
 # Modify this line as needed for your project to connect to elasticsearch with a password that you generate
 ELASTICSEARCH_CONNECTION_OPTIONS = {"timeout": 30, "verify_certs": False, "basic_auth": ("elastic", "E1asticSearchforArche5")}
@@ -273,7 +279,7 @@ CELERY_CHECK_ONLY_INSPECT_BROKER = False
 CANTALOUPE_DIR = os.path.join(ROOT_DIR, "uploadedfiles")
 CANTALOUPE_HTTP_ENDPOINT = "http://localhost:8182/"
 
-ACCESSIBILITY_MODE = False
+ACCESSIBILITY_MODE = True
 
 # By setting RESTRICT_MEDIA_ACCESS to True, media file requests outside of Arches will checked against nodegroup permissions.
 RESTRICT_MEDIA_ACCESS = False
@@ -311,14 +317,17 @@ LANGUAGE_CODE = "en"
 # {langcode}-{regioncode} eg: en, en-gb ....
 # a list of language codes can be found here http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGES = [
-#   ('de', _('German')),
-    ('en', _('English')),
-#   ('en-gb', _('British English')),
-#   ('es', _('Spanish')),
+  ('de', _('German')),
+  ('en', _('English')),
+  ('en-gb', _('British English')),
+  ('es', _('Spanish')),
+  ('ar', _('Arabic')),
 ]
 
 # override this to permenantly display/hide the language switcher
-SHOW_LANGUAGE_SWITCH = len(LANGUAGES) > 1
+SHOW_LANGUAGE_SWITCH = 5
+
+OVERRIDE_RESOURCE_MODEL_LOCK = True
 
 DOCKER = False
 
