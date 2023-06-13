@@ -327,7 +327,7 @@ LANGUAGES = [
 # override this to permenantly display/hide the language switcher
 SHOW_LANGUAGE_SWITCH = 5
 
-OVERRIDE_RESOURCE_MODEL_LOCK = True
+OVERRIDE_RESOURCE_MODEL_LOCK = False
 
 DOCKER = False
 
