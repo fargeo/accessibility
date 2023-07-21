@@ -518,7 +518,7 @@
                 {
                     "card_id": "9e022db1-6430-42c7-b550-8116455dc5db",
                     "config": {
-                        "defaultManifest": "",
+                        "defaultManifest": "https://purl.stanford.edu/rq252hk5362/iiif/manifest",
                         "label": "Annotation"
                     },
                     "id": "cedbddf5-25c2-45f7-8bc3-cbe3e2e88e46",
